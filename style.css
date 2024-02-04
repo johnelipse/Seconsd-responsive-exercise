@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+section {
+  padding: 9rem;
+  }
+.card {
+   padding: 5rem;
+  display: flex;
+}
+.image-card {
+  width: 40%;
+  height: 100vh;
+  background-color: black;
+}
+.image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.right-card {
+  width: 60%;
+  height: 100vh;
+  background-color: gainsboro;
+}
+.image-items {
+  display: flex;
+  gap: 20px;
+}
+.image-items img {
+  width: 50px;
+  height: 50px;
+}
+.name-card {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.name p {
+  font-size: 9px;
+}
+.amount .bx-cart-add {
+  padding: 0.2rem 0.5rem;
+  margin-left: 5px;
+  margin-top: 5px;
+  border: blue solid 1px;
+  font-size: 12px;
+  background-color: brown;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  color: blue;
+}
+.amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discription {
+  padding: 1rem;
+}
+.discription p {
+  padding: 0.5rem 0;
+}
+.specifications {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.color {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+.Dimensions {
+  display: flex;
+  gap: 5px;
+}
+.calculations {
+  margin-top: 5px;
+  display: flex;
+  gap: 2px;
+  font-size: 12px;
+}
+.more-items h1 {
+  padding: 2rem;
+}
+.image-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.icon-one {
+  color: burlywood;
+  border: 0;
+}
+.icon-two {
+  color: white;
+}
+.another-page {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+.bx-right-arrow-alt {
+  transform: rotate(-45deg);
+}
+@media (max-width: 858px) {
+  .card {
+       display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-card {
+    width: 50vw;
+    height: 40%;
+    background-color: black;
+  }
+  .right-card {
+    width: 50vw;
+    height: 60%;
+    background-color: gainsboro;
+  }
+}
+@media (max-width: 480px) {
+  .card {
+    /* background-color: blue; */
+margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      }
+
+  .image-card {
+    width: 70vw;
+    height: 40%;
+    background-color: black;
+  }
+  .right-card {
+    width: 70vw;
+    height: 60%;
+  }
+}
+@media(max-width:360px){
+  .card {
+    /* background-color: blue; */
+margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    padding-left: 2.5rem;
+      }
+
+  .image-card {
+    width: 90vw;
+    height: 40%;
+    background-color: black;
+  }
+  .right-card {
+    width: 90vw;
+    height: 60%;
+  }
+  section{
+    text-align: center;
+  }
+}
