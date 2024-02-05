@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 section {
-  padding: 9rem;
+  padding: 1rem;
   }
 .card {
-   padding: 5rem;
+   padding: 3rem;
   display: flex;
 }
 .image-card {
