@@ -172,3 +172,11 @@ margin: 0 auto;
     text-align: center;
   }
 }
+@media(max-width:340px){
+  .specifications {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 1rem; */
+    gap: 1rem;
+  } 
+}
