@@ -129,6 +129,31 @@ section {
     background-color: gainsboro;
   }
 }
+@media(max-width:640px){
+  .specifications {
+    display: flex;
+    justify-content: space-between;
+            gap: 1rem; 
+}
+}
+@media(max-width:581px){
+  
+  .card {
+    /* background-color: blue; */
+margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    padding-left: 2.5rem;
+      }
+      .specifications {
+        display: flex;
+        padding: 0.1rem;
+        justify-content: space-between;
+                gap: 1rem; 
+    }
+}
 @media (max-width: 480px) {
   .card {
     /* background-color: blue; */
@@ -180,3 +205,5 @@ margin: 0 auto;
     gap: 1rem;
   } 
 }
+
+
